@@ -17,9 +17,15 @@
         <i class="slab-icon--xlarge icon-modulab"></i>
       </div>
       <div class="slab-languages">
-        <a href="#" class="slab-languages__item text-uppercase mx-3 d-inline-block">español</a>
-        <a href="#" class="slab-languages__item slab-languages__item--active text-uppercase mx-3 d-inline-block">english</a>
-        <a href="#" class="slab-languages__item text-uppercase mx-3 d-inline-block">italiano</a>
+        <div data-lang="es" class="slab-languages__item text-uppercase mx-3 d-inline-block slab-languages__item--active">
+          español
+        </div>
+        <div data-lang="en" class="slab-languages__item text-uppercase mx-3 d-inline-block">
+          english
+        </div>
+        <div data-lang="it" class="slab-languages__item text-uppercase mx-3 d-inline-block">
+          italiano
+        </div>
       </div>
     </div>
     <!-- HEADER END -->
@@ -31,12 +37,13 @@
 
         <!-- TEXT CONTENT -->
         <div class="mb-3">
-          <h1 class="slab-launcher__title mb-4">¿Qué es Modulab?</h1>
+          <h1 class="trn slab-launcher__title mb-4">¿Qué es Modulab?</h1>
           <p class="slab-launcher__description">
-            <span class="font-weight-bold">Modulab</span> es el Sistema de Información de Laboratorio que almacena la información
-            de toda las analíticas de los pacientes y le conecta con todo los instrumentos
-            del laboratorio, le garantiza el acceso seguro a la información en todo y desde
-            cualquier lugar: <span class="font-weight-bold">Modulab</span> es el sistema de información para el laboratorio sin papeles
+            <b>Modulab</b>
+            <span class="trn">es el Sistema de Información de Laboratorio que almacena la información de toda las analíticas de los pacientes</span>
+            <span class="trn">y le conecta con todo los instrumentos del laboratorio, le garantiza el acceso seguro a la información en todo y desde cualquier lugar</span>:
+            <b>Modulab</b>
+            <span class="trn">es el sistema de información para el laboratorio sin papeles</span>.
           </p>
         </div>
         <!-- TEXT CONTENT END -->
@@ -47,25 +54,25 @@
             <div class="d-flex justify-content-center align-items-center mx-4 slab-icon slab-icon--squared slab-icon--rounded">
                 <i class="slab-icon--primary slab-icon--large icon-plus"></i>
             </div>
-            <p class="slab-menu__title mt-2">Registro</p>
+            <p class="trn slab-menu__title mt-2">Registro</p>
           </a>
           <a class="slab-link" href="#">
             <div class="d-flex justify-content-center align-items-center mx-4 slab-icon slab-icon--squared slab-icon--rounded">
                 <i class="slab-icon--primary slab-icon--large icon-tubes"></i>
             </div>
-            <p class="slab-menu__title mt-2">Extracciones</p>
+            <p class="trn slab-menu__title mt-2">Extracciones</p>
           </a>
           <a class="slab-link" href="#">
             <div class="d-flex justify-content-center align-items-center mx-4 slab-icon slab-icon--squared slab-icon--rounded">
                 <i class="slab-icon--primary slab-icon--large icon-laboratory"></i>
             </div>
-            <p class="slab-menu__title mt-2">Laboratorio</p>
+            <p class="trn slab-menu__title mt-2">Laboratorio</p>
           </a>
           <a class="slab-link" href="#">
             <div class="d-flex justify-content-center align-items-center mx-4 slab-icon slab-icon--squared slab-icon--rounded">
               <i class="slab-icon--primary slab-icon--large icon-configuration"></i>
             </div>
-            <p class="slab-menu__title mt-2">Configuración</p>
+            <p class="trn slab-menu__title mt-2">Configuración</p>
           </a>
         </div>
         <!-- APPS ICON END -->
@@ -95,5 +102,7 @@
     </div>
     <!-- FOOTER END -->
   </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

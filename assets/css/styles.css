@@ -84,8 +84,10 @@ body {
 
 .slab-languages__item {
   padding-top: 2.7rem;
+  padding-bottom: 0.5em;
   font-size: 0.7rem;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .slab-languages__item,
