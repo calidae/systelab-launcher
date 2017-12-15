@@ -1,0 +1,95 @@
+/* ==========================================================================
+   LOGIN SCREEN STYLES
+   ========================================================================== */
+
+
+
+
+
+html, body {
+  height: 100%;
+}   
+
+
+/* General layout
+========================================================================== */ 
+
+.slab-login__content {
+  flex: 0 0 394px; 
+  padding: 44px;
+}
+
+.slab-login__background {
+  flex: 1 1 auto; 
+  background-image: url("../img/background/laboratory.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Text modifiers
+========================================================================== */ 
+
+.slab-text {
+  font-size: 1em;   
+}
+
+.slab-text--large {
+  font-size: 1.6em;   
+}
+
+.slab-text--small {
+  font-size: 0.8em;
+}
+
+.slab-text--muted {
+  color: #BEBEBE;
+}
+
+.slab-text--link {
+  color: #0074F2;
+  font-size: 0.8em;
+}
+
+
+/* Form content
+========================================================================== */ 
+
+.slab-header__logo {
+  height: 80px;
+}
+
+
+.slab-form__input {
+  height: 41px;
+  border: 1px solid #D0D0D0;
+  font-size: 14px;
+  padding: 0 15px;
+}
+
+.slab-form__submit {
+  background-color: #0074F2;
+  color: white;
+  height: 45px;  
+}
+
+/* Footer
+========================================================================== */ 
+
+.slab-footer {
+  height: 180px;
+}
+
+/* Utilities
+========================================================================== */ 
+
+.u-border-radius-top {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;    
+    border-bottom: none;
+}
+.u-border-radius-bottom {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;    
+}
