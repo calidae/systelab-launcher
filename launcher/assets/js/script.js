@@ -19,7 +19,7 @@ var dict = {
     en: 'and bonds all the laboratory instruments and provides secure information access from everywhere',
     it: ''
   },
-  'es el sistema de información para el laboratorio sin papeles.': {
+  'es el sistema de información para el laboratorio sin papeles': {
     en: 'is the LIS system for paper-less laboratory',
     it: ''
   },
