@@ -18,7 +18,7 @@ html, body {
 }
 
 .slab-login__content {
-  flex: 0 0 394px; 
+  flex: 0 0 414px; 
   padding: 44px;
 }
 
@@ -64,15 +64,18 @@ html, body {
 ========================================================================== */ 
 
 .slab-text {
-  font-size: 1em;   
+  font-size: .9em;
+  line-height: 0.8;
 }
 
 .slab-text--large {
   font-size: 1.6em;   
+  line-height: 1.5;
 }
 
 .slab-text--small {
   font-size: 0.8em;
+  line-height: 1.5;
 }
 
 .slab-text--muted {
@@ -88,10 +91,12 @@ html, body {
 ========================================================================== */ 
 
 .slab-header__logo {
-  height: 80px;
+  height: 68px;
 }
 
-.slab-form {}
+.slab-form {
+  flex: 1;
+}
 
 .slab-form__input {
   height: 41px;
@@ -131,15 +136,4 @@ html, body {
   background-color: rgba(0, 116, 242, .8);
   border: 2px solid rgba(0, 0, 0, .1);
   transition: all .3s ease-out;
-}
-
-/* Footer
-========================================================================== */ 
-
-.slab-footer {
-  height: 180px;
-}
-
-.slab-footer__logo {
-  width: 132px;
 }
