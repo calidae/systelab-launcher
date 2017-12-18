@@ -24,15 +24,34 @@ html, body {
 
 .slab-login__background {
   flex: 1 1 auto; 
-  background-image: url("../img/background/laboratory.png");
-  background-position: center;
+  
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-position: -200px center;
+
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
         -ms-animation: fadein 3s; /* Internet Explorer */
             animation: fadein 3s;
   
+}
+
+.slab-login__background--laboratory {
+  background-image: url("../img/background/laboratory.png");
+  background-position: center;
+}
+
+.slab-login__background--configuration {
+  background-image: url("../img/background/configuration.jpg");
+}
+
+.slab-login__background--collection {
+  background-image: url("../img/background/collection.jpg");
+}
+
+.slab-login__background--request {
+  background-image: url("../img/background/request.png");
 }
 
 @keyframes fadein {
