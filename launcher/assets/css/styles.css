@@ -74,13 +74,14 @@ body {
 }
 
 .slab-launcher__header {
-  height: 90px;
+  height: 70px;
+  padding-left: 10px;
 }
 
-@media screen and (min-height: 950px) {
+@media screen and (min-width: 550px) {
   .slab-launcher__header {
     height: 110px;
-    margin-bottom: 0;
+    padding-left: 0;
   }
 }
 
@@ -99,11 +100,18 @@ body {
 ========================================================================== */
 
 .slab-languages__item {
-  padding-top: 2.7rem;
-  padding-bottom: 0.5em;
+  padding-top: 1.7rem;
+  padding-bottom: 1.2em;
   font-size: 0.7rem;
   opacity: 0.5;
   cursor: pointer;
+}
+
+@media screen and (min-width: 550px) {
+  .slab-languages__item {
+    padding-bottom: 0.5em;
+    padding-top: 2.7rem;
+  }
 }
 
 .slab-languages__item,
@@ -130,7 +138,7 @@ body {
 ========================================================================== */
 
 .slab-launcher__title {
-  font-size: 2.4rem;
+  font-size: 1.9rem;
 }
 
 @media screen and (min-height: 950px) {
@@ -180,7 +188,7 @@ body {
     height: 75px;
   }
   
-  @media screen and (min-width: 950px) {
+  @media screen and (min-width: 550px) {
     .slab-icon--squared {
       width: 100px;
       height: 100px;
@@ -191,7 +199,7 @@ body {
     border-radius: 25px;
   }
 
-  @media screen and (min-width: 950px) {
+  @media screen and (min-width: 550px) {
     .slab-icon--rounded {
       border-radius: 34px;
     }
@@ -222,7 +230,13 @@ body {
   }
 
   .slab-icon--xlarge {
-    font-size: 70px;
+    font-size: 50px;
+  }
+
+  @media screen and (min-width: 550px) {
+    .slab-icon--xlarge {
+      font-size: 70px;
+    }
   }
 
 .slab-link {
@@ -266,7 +280,7 @@ body {
 
 
 .slab-launcher__footer {
-  height: 35px;
+  height: 45px;
 }
 
 @media screen and (min-width: 550px) {
