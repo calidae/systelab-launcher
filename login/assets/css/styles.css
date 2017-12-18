@@ -13,6 +13,9 @@ html, body {
 
 /* General layout
 ========================================================================== */ 
+.slab-login {
+  min-height: 620px;
+}
 
 .slab-login__content {
   flex: 0 0 394px; 
