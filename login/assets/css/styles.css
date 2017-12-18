@@ -21,11 +21,12 @@ body {
 }
 
 .slab-login__content {
-  flex: 0 0 414px;
+  flex: 1;
   padding: 44px;
 }
 
 .slab-login__background {
+  display: none;
   flex: 1 1 auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -54,6 +55,17 @@ body {
   background-image: url("../img/background/request.png");
 }
 
+
+@media screen and (min-width: 550px) {
+  .slab-login__content {
+    flex: 0 0 414px;
+  }
+
+  .slab-login__background {
+    display: block;
+  }
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -73,7 +85,7 @@ body {
 
 
 .slab-text {
-  font-size: .9em;
+  font-size: 0.9em;
   line-height: 0.8;
 }
 
