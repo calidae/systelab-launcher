@@ -39,15 +39,15 @@ html, body {
 
 .slab-login__background--laboratory {
   background-image: url("../img/background/laboratory.png");
-  background-position: center;
+  background-position: -200px top;
 }
 
 .slab-login__background--configuration {
-  background-image: url("../img/background/configuration.jpg");
+  background-image: url("../img/background/configuration.png");
 }
 
 .slab-login__background--collection {
-  background-image: url("../img/background/collection.jpg");
+  background-image: url("../img/background/collection.png");
 }
 
 .slab-login__background--request {
