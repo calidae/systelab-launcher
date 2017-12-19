@@ -39,21 +39,14 @@ body {
 }
 
 .slab-login__background--laboratory {
-  background-image: url("../img/background/laboratory.png");
   background-position: center;
 }
 
-.slab-login__background--configuration {
-  background-image: url("../img/background/configuration.jpg");
-}
+.slab-login__background--configuration {}
 
-.slab-login__background--collection {
-  background-image: url("../img/background/collection.jpg");
-}
+.slab-login__background--collection {}
 
-.slab-login__background--request {
-  background-image: url("../img/background/request.png");
-}
+.slab-login__background--request {}
 
 
 @media screen and (min-width: 550px) {
