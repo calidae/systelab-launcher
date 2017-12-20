@@ -52,6 +52,7 @@ html, body {
 
 .slab-login__background--request {
   background-image: url("../img/background/request.png");
+  background-position: -400px top;
 }
 
 @keyframes fadein {
