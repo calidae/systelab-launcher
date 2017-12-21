@@ -38,22 +38,23 @@ html, body {
 }
 
 .slab-login__background--laboratory {
-  background-image: url("../img/background/laboratory.png");
-  background-position: -200px top;
+  background-image: url("../img/background/521387925.jpg");
+  background-position: -200px top;  
 }
-
+     
 .slab-login__background--configuration {
-  background-image: url("../img/background/configuration.png");
+  background-image: url("../img/background/461230325.jpg");
 }
-
+   
 .slab-login__background--collection {
-  background-image: url("../img/background/collection.png");
+  background-image: url("../img/background/690009628.jpg");
 }
-
+   
 .slab-login__background--request {
-  background-image: url("../img/background/request.png");
+  background-image: url("../img/background/483425143.jpg");
   background-position: -400px top;
 }
+  
 
 @keyframes fadein {
   from { opacity: 0; }
