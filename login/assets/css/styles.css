@@ -39,14 +39,16 @@ body {
 }
 
 .slab-login__background--laboratory {
-  background-position: center;
+  background-position: -200px top;
 }
 
 .slab-login__background--configuration {}
 
 .slab-login__background--collection {}
 
-.slab-login__background--request {}
+.slab-login__background--request {
+  background-position: -400px top;
+}
 
 
 @media screen and (min-width: 550px) {
